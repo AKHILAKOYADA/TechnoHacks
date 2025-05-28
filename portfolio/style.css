@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #240a5b;3
+    color: white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #f1f4f2;
+}
+
+.contact p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #f1f4f2;
+}
+
+.skills h3 {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    color: white;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    color: #f1f4f2;
+}
+
+.skills li {
+    background-color: #0f253a;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Main Content */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #3a1289;
+    border-bottom: 3px solid #2c3e50;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.job, .education, .project {
+    background: #f1f4f2;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.job h3, .education h3, .project h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.job p, .education p, .project p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.job p i, .education p i {
+    font-size: 13px;
+    color: #555;
+}
